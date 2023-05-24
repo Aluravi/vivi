@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color: rgb(184, 15, 15);
+    font-family: Playfair;
 }
 
 h2{
@@ -18,13 +19,20 @@ h2{
     grid-template-columns: 25% 25% 25% 25%;
     padding: 2em;
 }
-
 .containerbotao{
-    background-color: rgb(143, 15, 15);
-    color: rgb(5, 5, 5);
-    font-size: 25px;
-    border-radius: 2px;
+    background-color: rgb(184, 15, 15);
+    color: black;
+    font-size: 30px;
+    border-radius: 10px;
 }
 .botao{
     text-align: center;
+}
+.informacao{
+    color: aliceblue;
+    font-size: 20px;
+    display: flex;
+}
+.imagem{
+    width: 30%;
 }
