@@ -168,3 +168,42 @@ padding: 1em 0 0.5em 0;
     font-size: larger;
     margin: 1em;
 }
+
+.topicos{
+   background:  var(--azul-degrade);
+   text-align:center;
+   padding:2em 0;
+   margin: 2em;
+}
+
+.Titulos-topicos{
+   color: #0f0404;
+   font-size:  20px;
+   font-weight: 300;
+   padding: 2em;
+   margin: 6px;
+}
+
+.topicos-link{
+   color: #a32929;
+   padding: 2m;
+   background-color:orange ;
+   font-size: 14px;
+   margin: 10px;
+   border-radius: 15px;
+}
+
+.rodape{
+   background-color: #a32929;
+   padding: 2em;
+}
+
+.contato-titulo{
+    font-family: 3em;
+    font-style: italic 900;
+}
+
+.contato-texto{
+    font-family: 40px;
+    font-style: italic 800;
+}
