@@ -186,24 +186,47 @@ padding: 1em 0 0.5em 0;
 
 .topicos-link{
    color: #a32929;
-   padding: 2m;
+   padding: 8m;
    background-color:orange ;
-   font-size: 14px;
-   margin: 10px;
-   border-radius: 15px;
+   font-size: 20px;
+   margin: 20px;
+   border-radius: 20px;
 }
 
 .rodape{
    background-color: #a32929;
-   padding: 2em;
+   padding: 8em;
 }
 
 .contato-titulo{
-    font-family: 3em;
-    font-style: italic 900;
+    font-family: 8em;
+    font-style: italic 1000;
 }
 
 .contato-texto{
-    font-family: 40px;
-    font-style: italic 800;
+    font-family: 80px;
+    font-style: italic 1000;
+}
+.contato-email{
+padding: 1em;
+border-radius: 20px;
+border:5px rgb(87, 8, 87);
+width: 40%;
+color: pink;
+background-position: 1em;
+text-align: center;
+font-style: italic;
+font-size: 25px;
+width: 20%;
+height: 16px;
+margin: auto;
+}
+
+.contato-email::placeholder{
+font-style: oblique;
+color: rgb(0, 0, 0);
+background: url(./img/email.svg) no-repeat;
+background-position: 0%;
+width: 23%;
+height: 16px;
 }
